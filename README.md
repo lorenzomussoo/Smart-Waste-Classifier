@@ -1,4 +1,4 @@
-# Smart Waste Classifier ♻️🤖
+# Smart Waste Classifier ♻️🤖 
 
 An AI-powered computer vision tool designed to help users correctly classify and dispose of waste, aiming to reduce environmental impact and improve recycling efficiency. This project utilizes Deep Learning to classify waste images into 7 distinct categories.
 
