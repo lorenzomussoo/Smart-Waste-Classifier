@@ -1,0 +1,51 @@
+:root {
+    --main-color: #4CAF50;
+    --gradient: linear-gradient(45deg, var(--main-color), #ffffff);
+}
+
+.custom-upload {
+    border: 3px dashed var(--main-color) !important;
+    border-radius: 20px !important;
+    transition: all 0.3s ease !important;
+}
+
+.custom-upload:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px var(--main-color);
+}
+
+.pulse-button {
+    transition: all 0.3s ease !important;
+    border: none !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.animate-pulse {
+    animation: pulse 1s ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+    border-bottom: 3px solid var(--main-color);
+    padding-bottom: 10px;
+    transition: all 0.5s ease;
+}
+
+.gr-group {
+    border: 2px solid var(--main-color);
+    border-radius: 15px;
+    padding: 20px !important;
+    margin: 10px 0 !important;
+}
