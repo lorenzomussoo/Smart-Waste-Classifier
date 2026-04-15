@@ -47,9 +47,8 @@ To evaluate different approaches to image classification, two distinct models we
 2. (Note: The raw datasets and .pth model weights are excluded from this repository due to GitHub size constraints. You must train the models locally using Train.py and Fine-Tune.py after downloading the appropriate datasets).
 
 3. To launch the user interface, run:
-  ```bash
+   ```bash
    python Code/Progetto.py
-   ```
 
 4. Access the web interface via the localhost link provided in your terminal, upload a test image from the /Test folder, and view the prediction.
 
