@@ -1,0 +1,12 @@
+# Ignora i modelli pesanti di PyTorch e le metriche compresse
+*.pth
+*.npz
+
+# Ignora i dataset completi di immagini per evitare limiti di dimensione su GitHub
+Dataset/
+*.zip
+
+# Python e Cache
+__pycache__/
+*.pyc
+.DS_Store
