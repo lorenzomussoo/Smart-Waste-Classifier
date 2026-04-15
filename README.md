@@ -48,7 +48,7 @@ To evaluate different approaches to image classification, two distinct models we
 
 3. To launch the user interface, run:
   ```bash
-  python Code/Progetto.py
+   python Code/Progetto.py
 
 4. Access the web interface via the localhost link provided in your terminal, upload a test image from the /Test folder, and view the prediction.
 
